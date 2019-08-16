@@ -1,0 +1,20 @@
+<html>
+    <head>
+       
+    </head>
+    <body>
+        <canvas id="paper" width="400" height="400">
+
+        </canvas>
+    </body>
+    <script>
+            let canvas = document.getElementById('paper');
+    let context = canvas.getContext('2d');
+
+    context.beginPath();
+    context.fillStyle = '#dd0343'
+    context.arc(120, 120, 40, 0, Math.PI * 2);
+    context.fill();
+    context.closePath();
+            </script>
+</html>
